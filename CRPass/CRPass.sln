@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.DO", "CRPass.DO\CRPass.DO.csproj", "{C2BE9DCE-84D5-4580-B2F4-7CD5022F44C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.DAL.Repository", "CRPass.DAL.Repository\CRPass.DAL.Repository.csproj", "{13816C6A-2FD8-437F-AF7A-E092278D2A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.DAL.EF", "CRPass.DAL.EF\CRPass.DAL.EF.csproj", "{4005BF25-5ADE-444B-A88B-FF83573F2152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.DAL", "CRPass.DAL\CRPass.DAL.csproj", "{3D7087B0-BA9E-4832-9382-7E646C101888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.BS", "CRPass.BS\CRPass.BS.csproj", "{4021DCBE-1E04-4A3C-A1FA-740B78F28C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPass.API", "CRPass.API\CRPass.API.csproj", "{5C0988F8-A30E-435D-8E32-21E6574A0910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2BE9DCE-84D5-4580-B2F4-7CD5022F44C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BE9DCE-84D5-4580-B2F4-7CD5022F44C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BE9DCE-84D5-4580-B2F4-7CD5022F44C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BE9DCE-84D5-4580-B2F4-7CD5022F44C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13816C6A-2FD8-437F-AF7A-E092278D2A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13816C6A-2FD8-437F-AF7A-E092278D2A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13816C6A-2FD8-437F-AF7A-E092278D2A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13816C6A-2FD8-437F-AF7A-E092278D2A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4005BF25-5ADE-444B-A88B-FF83573F2152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4005BF25-5ADE-444B-A88B-FF83573F2152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4005BF25-5ADE-444B-A88B-FF83573F2152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4005BF25-5ADE-444B-A88B-FF83573F2152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7087B0-BA9E-4832-9382-7E646C101888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7087B0-BA9E-4832-9382-7E646C101888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7087B0-BA9E-4832-9382-7E646C101888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7087B0-BA9E-4832-9382-7E646C101888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4021DCBE-1E04-4A3C-A1FA-740B78F28C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021DCBE-1E04-4A3C-A1FA-740B78F28C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4021DCBE-1E04-4A3C-A1FA-740B78F28C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4021DCBE-1E04-4A3C-A1FA-740B78F28C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0988F8-A30E-435D-8E32-21E6574A0910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0988F8-A30E-435D-8E32-21E6574A0910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0988F8-A30E-435D-8E32-21E6574A0910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0988F8-A30E-435D-8E32-21E6574A0910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA46770E-C30A-46EF-8BC0-FB7C9277E9B3}
+	EndGlobalSection
+EndGlobal

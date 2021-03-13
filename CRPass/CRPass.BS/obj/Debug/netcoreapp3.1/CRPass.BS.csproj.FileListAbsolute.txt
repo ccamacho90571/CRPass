@@ -1,0 +1,5 @@
+C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.BS\bin\Debug\netcoreapp3.1\CRPass.BS.deps.json
+C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.BS\bin\Debug\netcoreapp3.1\CRPass.BS.dll
+C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.BS\obj\Debug\netcoreapp3.1\CRPass.BS.csprojAssemblyReference.cache
+C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.BS\obj\Debug\netcoreapp3.1\CRPass.BS.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.BS\obj\Debug\netcoreapp3.1\CRPass.BS.AssemblyInfo.cs
