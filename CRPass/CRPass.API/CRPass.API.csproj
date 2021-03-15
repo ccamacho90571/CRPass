@@ -17,5 +17,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CRPass.BS\CRPass.BS.csproj" />
+    <ProjectReference Include="..\CRPass.DAL\CRPass.DAL.csproj" />
+    <ProjectReference Include="..\CRPass.DO\CRPass.DO.csproj" />
+  </ItemGroup>
+
 
 </Project>

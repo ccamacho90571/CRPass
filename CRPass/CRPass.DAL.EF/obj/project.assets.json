@@ -1495,6 +1495,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "CRPass.DO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/CRPass.DO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRPass.DO.dll": {}
+        }
       }
     }
   },
@@ -5712,35 +5726,36 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "CRPass.DO/1.0.0": {
+      "type": "project",
+      "path": "../CRPass.DO/CRPass.DO.csproj",
+      "msbuildProject": "../CRPass.DO/CRPass.DO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CRPass.DO >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.11",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.11"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\Repositorio\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
       "projectName": "CRPass.DAL.EF",
-      "projectPath": "C:\\Users\\Carlos\\Documents\\Repositorio\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Documents\\Repositorio\\CRPass\\CRPass\\CRPass.DAL.EF\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5751,7 +5766,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5762,6 +5782,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5793,7 +5814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

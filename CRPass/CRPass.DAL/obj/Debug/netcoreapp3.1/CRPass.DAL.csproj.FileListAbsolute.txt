@@ -3,3 +3,22 @@ C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DAL\bin\Debug\netcore
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.csprojAssemblyReference.cache
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.AssemblyInfoInputs.cache
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.deps.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.runtimeconfig.dev.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DO.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\bin\Debug\netcoreapp3.1\CRPass.DO.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.csprojAssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.csproj.CopyComplete
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DAL\obj\Debug\netcoreapp3.1\CRPass.DAL.genruntimeconfig.cache

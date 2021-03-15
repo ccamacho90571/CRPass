@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CRPass.DAL.EF\CRPass.DAL.EF.csproj" />
+    <ProjectReference Include="..\CRPass.DO\CRPass.DO.csproj" />
+  </ItemGroup>
+
 </Project>

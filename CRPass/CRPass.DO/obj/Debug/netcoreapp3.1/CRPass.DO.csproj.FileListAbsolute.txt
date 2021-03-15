@@ -3,3 +3,15 @@ C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DO\bin\Debug\netcorea
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.csprojAssemblyReference.cache
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.AssemblyInfoInputs.cache
 C:\Users\Carlos\Documents\Repositorio\CRPass\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\bin\Debug\netcoreapp3.1\CRPass.DO.deps.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\bin\Debug\netcoreapp3.1\CRPass.DO.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\bin\Debug\netcoreapp3.1\CRPass.DO.runtimeconfig.dev.json
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\bin\Debug\netcoreapp3.1\CRPass.DO.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\bin\Debug\netcoreapp3.1\CRPass.DO.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.csprojAssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.dll
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.pdb
+C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.DO\obj\Debug\netcoreapp3.1\CRPass.DO.genruntimeconfig.cache
