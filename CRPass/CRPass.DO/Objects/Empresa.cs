@@ -11,7 +11,7 @@ namespace CRPass.DO.Objects
         public string Ubicacion { get; set; }
         public int ReservasUsuario { get; set; }
 
-        //public virtual ICollection<Boleteria> Boleteria { get; set; }
+        public virtual ICollection<Boleteria> Boleteria { get; set; }
         //public virtual ICollection<ControlAforo> ControlAforo { get; set; }
         //public virtual ICollection<Usuarios> Usuarios { get; set; }
     }
