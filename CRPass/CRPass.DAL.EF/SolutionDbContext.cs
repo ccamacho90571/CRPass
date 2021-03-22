@@ -12,7 +12,7 @@ namespace CRPass.DAL.EF
             : base(options)
         {
         }
-        //public virtual DbSet<Boleteria> Boleteria { get; set; }
+        public virtual DbSet<Boleteria> Boleteria { get; set; }
         //public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
         //public virtual DbSet<ControlAforo> ControlAforo { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }
@@ -23,20 +23,20 @@ namespace CRPass.DAL.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Boleteria>(entity =>
-            //{
-            //    entity.HasKey(e => e.CodBoleteria);
+            modelBuilder.Entity<Boleteria>(entity =>
+            {
+                entity.HasKey(e => e.CodBoleteria);
 
-            //    entity.Property(e => e.Descripcion)
-            //        .IsRequired()
-            //        .HasMaxLength(200);
+                entity.Property(e => e.Descripcion)
+                    .IsRequired()
+                    .HasMaxLength(200);
 
-            //    entity.HasOne(d => d.CodEmpresaNavigation)
-            //        .WithMany(p => p.Boleteria)
-            //        .HasForeignKey(d => d.CodEmpresa)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Boleteria_Empresa");
-            //});
+                entity.HasOne(d => d.CodEmpresaNavigation)
+                    .WithMany(p => p.Boleteria)
+                    .HasForeignKey(d => d.CodEmpresa)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Boleteria_Empresa");
+            });
 
             //modelBuilder.Entity<BoleteriaReservados>(entity =>
             //{
