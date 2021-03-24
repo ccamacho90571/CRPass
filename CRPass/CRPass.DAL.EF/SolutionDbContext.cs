@@ -13,7 +13,7 @@ namespace CRPass.DAL.EF
         {
         }
         public virtual DbSet<Boleteria> Boleteria { get; set; }
-        //public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
+        public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
         //public virtual DbSet<ControlAforo> ControlAforo { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }
         //public virtual DbSet<Publicidad> Publicidad { get; set; }
@@ -38,24 +38,24 @@ namespace CRPass.DAL.EF
                     .HasConstraintName("FK_Boleteria_Empresa");
             });
 
-            //modelBuilder.Entity<BoleteriaReservados>(entity =>
-            //{
-            //    entity.HasKey(e => new { e.CodBoletaReservado, e.CodBoleteria, e.CodTickets });
+            modelBuilder.Entity<BoleteriaReservados>(entity =>
+            {
+                entity.HasKey(e => new { e.CodBoletaReservado, e.CodBoleteria, e.CodTickets });
 
-            //    entity.Property(e => e.CodBoletaReservado).ValueGeneratedOnAdd();
+                entity.Property(e => e.CodBoletaReservado).ValueGeneratedOnAdd();
 
-            //    entity.HasOne(d => d.CodBoleteriaNavigation)
-            //        .WithMany(p => p.BoleteriaReservados)
-            //        .HasForeignKey(d => d.CodBoleteria)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_BoleteriaReservados_Boleteria");
+                entity.HasOne(d => d.CodBoleteriaNavigation)
+                    .WithMany(p => p.BoleteriaReservados)
+                    .HasForeignKey(d => d.CodBoleteria)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BoleteriaReservados_Boleteria");
 
-            //    entity.HasOne(d => d.CodTicketsNavigation)
-            //        .WithMany(p => p.BoleteriaReservados)
-            //        .HasForeignKey(d => d.CodTickets)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_BoleteriaReservados_Tickets");
-            //});
+                entity.HasOne(d => d.CodTicketsNavigation)
+                    .WithMany(p => p.BoleteriaReservados)
+                    .HasForeignKey(d => d.CodTickets)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BoleteriaReservados_Tickets");
+            });
 
             //modelBuilder.Entity<ControlAforo>(entity =>
             //{
