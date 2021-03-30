@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\CRPass.API.csproj": {}
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.API\\CRPass.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\CRPass.API.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.API\\CRPass.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\CRPass.API.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.API\\CRPass.API.csproj",
         "projectName": "CRPass.API",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\CRPass.API.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.API\\CRPass.API.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,16 +30,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\CRPass.BS.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -48,7 +51,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -99,22 +101,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
         "projectName": "CRPass.BS",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.BS\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.BS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -125,19 +131,18 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -150,7 +155,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -182,22 +186,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
         "projectName": "CRPass.DAL.EF",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -208,10 +216,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -224,7 +231,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -256,22 +262,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
         "projectName": "CRPass.DAL.Repository",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -282,13 +292,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -301,7 +310,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -333,22 +341,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
         "projectName": "CRPass.DAL",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -359,16 +371,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
               },
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -381,7 +392,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -413,22 +423,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+    "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
         "projectName": "CRPass.DO",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\CRPass\\CRPass\\CRPass.DO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -439,7 +453,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -451,7 +464,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -483,7 +495,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
