@@ -12,6 +12,6 @@ namespace CRPass.DO.Objects
         public int Costo { get; set; }
 
         public virtual Empresa CodEmpresaNavigation { get; set; }
-        //public virtual ICollection<BoleteriaReservados> BoleteriaReservados { get; set; }
+        public virtual ICollection<BoleteriaReservados> BoleteriaReservados { get; set; }
     }
 }
