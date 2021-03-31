@@ -13,10 +13,10 @@ namespace CRPass.DAL.EF
         {
         }
         public virtual DbSet<Boleteria> Boleteria { get; set; }
-        //public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
+        public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
         //public virtual DbSet<ControlAforo> ControlAforo { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }
-        //public virtual DbSet<Publicidad> Publicidad { get; set; }
+        public virtual DbSet<Publicidad> Publicidad { get; set; }
         public virtual DbSet<Tickets> Tickets { get; set; }
         //public virtual DbSet<Usuarios> Usuarios { get; set; }
 
@@ -38,24 +38,24 @@ namespace CRPass.DAL.EF
                     .HasConstraintName("FK_Boleteria_Empresa");
             });
 
-            //modelBuilder.Entity<BoleteriaReservados>(entity =>
-            //{
-            //    entity.HasKey(e => new { e.CodBoletaReservado, e.CodBoleteria, e.CodTickets });
+            modelBuilder.Entity<BoleteriaReservados>(entity =>
+            {
+                entity.HasKey(e => new { e.CodBoletaReservado, e.CodBoleteria, e.CodTickets });
 
-            //    entity.Property(e => e.CodBoletaReservado).ValueGeneratedOnAdd();
+                entity.Property(e => e.CodBoletaReservado).ValueGeneratedOnAdd();
 
-            //    entity.HasOne(d => d.CodBoleteriaNavigation)
-            //        .WithMany(p => p.BoleteriaReservados)
-            //        .HasForeignKey(d => d.CodBoleteria)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_BoleteriaReservados_Boleteria");
+                entity.HasOne(d => d.CodBoleteriaNavigation)
+                    .WithMany(p => p.BoleteriaReservados)
+                    .HasForeignKey(d => d.CodBoleteria)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BoleteriaReservados_Boleteria");
 
-            //    entity.HasOne(d => d.CodTicketsNavigation)
-            //        .WithMany(p => p.BoleteriaReservados)
-            //        .HasForeignKey(d => d.CodTickets)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_BoleteriaReservados_Tickets");
-            //});
+                entity.HasOne(d => d.CodTicketsNavigation)
+                    .WithMany(p => p.BoleteriaReservados)
+                    .HasForeignKey(d => d.CodTickets)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BoleteriaReservados_Tickets");
+            });
 
             //modelBuilder.Entity<ControlAforo>(entity =>
             //{
@@ -81,18 +81,17 @@ namespace CRPass.DAL.EF
                 entity.Property(e => e.Ubicacion).IsRequired();
             });
 
-            //modelBuilder.Entity<Publicidad>(entity =>
-            //{
-            //    entity.HasNoKey();
-
-            //    entity.Property(e => e.RutaArchivo).IsRequired();
-
-            //    entity.HasOne(d => d.CodEmpresaNavigation)
-            //        .WithMany()
-            //        .HasForeignKey(d => d.CodEmpresa)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Publicidad_Empresa");
-            //});
+            modelBuilder.Entity<Publicidad>(entity =>
+            {
+                entity.HasKey(e => e.CodPublicidad);
+                entity.Property(e => e.CodPublicidad).ValueGeneratedNever();
+                entity.Property(e => e.RutaArchivo).IsRequired();
+                entity.HasOne(d => d.CodEmpresaNavigation)
+                    .WithMany(p => p.Publicidad)
+                    .HasForeignKey(d => d.CodEmpresa)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Publicidad_Empresa");
+            });
 
             modelBuilder.Entity<Tickets>(entity =>
             {
