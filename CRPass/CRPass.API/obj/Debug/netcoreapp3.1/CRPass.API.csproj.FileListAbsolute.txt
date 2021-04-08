@@ -59,7 +59,6 @@ C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRP
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\obj\Debug\netcoreapp3.1\CRPass.API.AssemblyInfoInputs.cache
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\obj\Debug\netcoreapp3.1\CRPass.API.AssemblyInfo.cs
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\obj\Debug\netcoreapp3.1\CRPass.API.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\obj\Debug\netcoreapp3.1\CRPass.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\obj\Debug\netcoreapp3.1\CRPass.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\LENOVO\OneDrive\Documentos\U\2021\I Cuatri\Progra V\Proyecto\CRPass\CRPass.API\bin\Debug\netcoreapp3.1\appsettings.json

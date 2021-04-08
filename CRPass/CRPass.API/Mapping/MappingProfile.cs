@@ -22,6 +22,9 @@ namespace CRPass.API.Mapping
 
             CreateMap<data.Boleteria, DataModels.Boleteria>().ReverseMap();
 
+            CreateMap<data.BoleteriaReservados, DataModels.BoleteriaReservados>().ReverseMap();
+
+            CreateMap<data.Publicidad, DataModels.Publicidad>().ReverseMap();
 
         }
     }
