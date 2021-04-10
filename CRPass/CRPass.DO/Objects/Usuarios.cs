@@ -13,6 +13,8 @@ namespace CRPass.DO.Objects
         public string Cedula { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
+        public virtual Empresa CodEmpresaNavigation { get; set; }
+        public virtual ICollection<Tickets> Tickets { get; set; }
 
     }
 }
