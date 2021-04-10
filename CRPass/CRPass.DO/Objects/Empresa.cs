@@ -13,6 +13,8 @@ namespace CRPass.DO.Objects
 
         public virtual ICollection<Boleteria> Boleteria { get; set; }
         public virtual ICollection<Publicidad> Publicidad { get; set; }
+        public virtual ICollection<Tickets> Tickets { get; set; }
+
         //public virtual ICollection<ControlAforo> ControlAforo { get; set; }
         //public virtual ICollection<Usuarios> Usuarios { get; set; }
     }
