@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0gMFSZpo7/g393Up+9ibuy+0DbN16G/YfxHSLV/3+smEPrG2taIMx+eNrApAbTombmTeH75kKH92yKZ0eXFcAg==",
+  "dgSpecHash": "1Ll6N86LBcjtmqRF/ahogmbj3K5MVJChOreVRbCinPDU0bJ3wEco3D4SvxMKdZLc9KjsztA+H3Sh1a+fN69LCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.API\\CRPass.API.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.API\\CRPass.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
