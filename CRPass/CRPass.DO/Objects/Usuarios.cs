@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CRPass.DO.Objects
 {
-    class Usuarios
+    public class Usuarios
     {
 
         public int CodUsuario { get; set; }
