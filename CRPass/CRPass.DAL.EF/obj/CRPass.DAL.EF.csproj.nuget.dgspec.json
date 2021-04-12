@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {}
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
         "projectName": "CRPass.DAL.EF",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\obj\\",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
         "projectName": "CRPass.DO",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\obj\\",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

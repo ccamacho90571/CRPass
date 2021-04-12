@@ -31,3 +31,18 @@ C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CR
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.csproj.CopyComplete
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.dll
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.deps.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.runtimeconfig.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.runtimeconfig.dev.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DO.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\bin\Debug\netcoreapp3.1\CRPass.DO.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.csprojAssemblyReference.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.AssemblyInfoInputs.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.AssemblyInfo.cs
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.csproj.CoreCompileInputs.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.csproj.CopyComplete
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.EF\obj\Debug\netcoreapp3.1\CRPass.DAL.EF.genruntimeconfig.cache

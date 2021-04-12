@@ -35,3 +35,20 @@ C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcorea
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.csproj.CopyComplete
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.dll
 C:\Users\Carlos\Documents\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.deps.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.runtimeconfig.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.runtimeconfig.dev.json
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.Repository.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DO.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DAL.EF.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\bin\Debug\netcoreapp3.1\CRPass.DO.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.csprojAssemblyReference.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.AssemblyInfoInputs.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.AssemblyInfo.cs
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.csproj.CoreCompileInputs.cache
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.csproj.CopyComplete
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.dll
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.pdb
+A:\U\Diseño y Desarrollo\Novedades Monica\CRPass\CRPass\CRPass.DAL.Repository\obj\Debug\netcoreapp3.1\CRPass.DAL.Repository.genruntimeconfig.cache
