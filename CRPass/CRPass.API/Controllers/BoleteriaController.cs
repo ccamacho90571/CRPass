@@ -29,7 +29,7 @@ namespace CRPass.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<datamodels.Boleteria>>> GetBoleteria()
         {
-            var aux = new CRPass.BS.Boleteria(_context).GetAll();
+            var aux = await new CRPass.BS.Boleteria(_context).GetAllWithAsync();
 
             var mapaux = _mapper.Map<IEnumerable<data.Boleteria>, IEnumerable<datamodels.Boleteria>>(aux).ToList();
             return mapaux;
