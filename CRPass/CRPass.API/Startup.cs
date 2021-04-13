@@ -13,7 +13,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using CRPass.API.Mapping;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using CRPass.DAL.EF;
+using Newtonsoft.Json;
 
 namespace CRPass.API
 {
@@ -29,9 +31,11 @@ namespace CRPass.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
             services.AddDbContext<SolutionDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options => { options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore; });
 
             // Seccion que representa la inicializacion del automapper para que trabje correctamente 
             // Auto Mapper Configurations
