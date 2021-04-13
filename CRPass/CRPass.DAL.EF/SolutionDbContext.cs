@@ -123,28 +123,28 @@ namespace CRPass.DAL.EF
                     .HasConstraintName("FK_Tickets_Usuarios");
             });
 
-            //modelBuilder.Entity<Usuarios>(entity =>
-            //{
-            //    entity.HasKey(e => e.Usuario);
+            modelBuilder.Entity<Usuarios>(entity =>
+            {
+                entity.HasKey(e => e.Usuario);
 
-            //    entity.Property(e => e.Usuario).HasMaxLength(10);
+                entity.Property(e => e.Usuario).HasMaxLength(10);
 
-            //    entity.Property(e => e.Contrasena)
-            //        .IsRequired()
-            //        .HasMaxLength(100);
+                entity.Property(e => e.Contrasena)
+                    .IsRequired()
+                    .HasMaxLength(100);
 
-            //    entity.Property(e => e.Correo).HasMaxLength(150);
+                entity.Property(e => e.Correo).HasMaxLength(150);
 
-            //    entity.Property(e => e.Nombre)
-            //        .IsRequired()
-            //        .HasMaxLength(100);
+                entity.Property(e => e.Nombre)
+                    .IsRequired()
+                    .HasMaxLength(100);
 
-            //    entity.HasOne(d => d.CodEmpresaNavigation)
-            //        .WithMany(p => p.Usuarios)
-            //        .HasForeignKey(d => d.CodEmpresa)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Usuarios_Empresa");
-            //});
+                entity.HasOne(d => d.CodEmpresaNavigation)
+                    .WithMany(p => p.Usuarios)
+                    .HasForeignKey(d => d.CodEmpresa)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Usuarios_Empresa");
+            });
 
             OnModelCreatingPartial(modelBuilder);
         }
