@@ -1,12 +1,12 @@
-﻿using System;
+﻿//using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace CRPass.DO.Objects
+namespace CRPass.API.DataModels
 {
-    public partial class Usuarios
+    public class Usuarios
     {
-
         public string Usuario { get; set; }
         public string Contrasena { get; set; }
         public bool Tipo { get; set; }
@@ -15,6 +15,5 @@ namespace CRPass.DO.Objects
         public string Correo { get; set; }
 
         public virtual Empresa CodEmpresaNavigation { get; set; }
-
     }
 }

@@ -26,6 +26,9 @@ namespace CRPass.API.Mapping
 
             CreateMap<data.Publicidad, DataModels.Publicidad>().ReverseMap();
 
+            CreateMap<data.Usuarios, DataModels.Usuarios>().ReverseMap();
+
+
         }
     }
 }

@@ -3,62 +3,60 @@ using System.Collections.Generic;
 using System.Text;
 using data = CRPass.DO.Objects;
 using CRPass.DAL.EF;
-using CRPass.DAL.Repository;
 using CRPass.DO.Interfaces;
 using System.Threading.Tasks;
 
-namespace CRPass.DAL
+namespace CRPass.BS
 {
     public class Usuarios : ICRUDU<data.Usuarios>
     {
-        private RepositoryUsuarios _repo = null;
-        public Usuarios(SolutionDbContext solutionDbContext)
+        private SolutionDbContext context;
+        public Usuarios(SolutionDbContext _context)
         {
-            _repo = new RepositoryUsuarios(solutionDbContext);
+            context = _context;
         }
 
         public void Delete(data.Usuarios t)
         {
-            _repo.Delete(t);
-            _repo.Commit();
+            new DAL.Usuarios(context).Delete(t);
         }
 
         public IEnumerable<data.Usuarios> GetAll()
         {
-            return _repo.GetAll();
+            return new DAL.Usuarios(context).GetAll();
         }
 
         public data.Usuarios GetOneById(string id)
         {
-            return _repo.GetOneById(id);
+            return new DAL.Usuarios(context).GetOneById(id);
         }
 
         public void Insert(data.Usuarios t)
         {
-            _repo.Insert(t);
-            _repo.Commit();
+            new DAL.Usuarios(context).Insert(t);
         }
 
         public void Update(data.Usuarios t)
         {
-            _repo.Update(t);
-            _repo.Commit();
+            new DAL.Usuarios(context).Update(t);
         }
 
         public async Task<IEnumerable<data.Usuarios>> GetAllWithAsync()
         {
-            return await _repo.GetAllWithAsAsync();
+            return await new DAL.Usuarios(context).GetAllWithAsync();
         }
 
         public async Task<data.Usuarios> GetOneByIdWithAsync(string usuario)
         {
-            return await _repo.GetByOneWithAsAsync(usuario);
+            return await new DAL.Usuarios(context).GetOneByIdWithAsync(usuario);
         }
 
         public async Task<data.Usuarios> ValidarCredenciales(string usuario, string contrasena)
         {
-            return await _repo.ValidarCredenciales(usuario, contrasena);
+            return await new DAL.Usuarios(context).ValidarCredenciales(usuario, contrasena);
         }
+
+
 
 
 
