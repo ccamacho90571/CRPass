@@ -11,5 +11,8 @@ namespace CRPass.API.DataModels
         public int CodEmpresa { get; set; }
         public string Descripcion { get; set; }
         public int Costo { get; set; }
+
+        public virtual Empresa CodEmpresaNavigation { get; set; }
+        //public virtual ICollection<BoleteriaReservados> BoleteriaReservados { get; set; }
     }
 }
