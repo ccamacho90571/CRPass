@@ -31,6 +31,11 @@ namespace CRPass.BS
             return new DAL.ControlAforo(context).GetOneById(id);
         }
 
+        public data.ControlAforo GetOneByIds(int codControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        {
+            return new DAL.ControlAforo(context).GetOneByIds( codControl,  CodEmpresa, NumeroDia, NumeroAforo);
+        }
+
         public void Insert(data.ControlAforo t)
         {
             new DAL.ControlAforo(context).Insert(t);

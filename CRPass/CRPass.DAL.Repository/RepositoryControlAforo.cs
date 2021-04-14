@@ -40,7 +40,10 @@ namespace CRPass.DAL.Repository
              .Include(m => m.NumeroAforo)
              .SingleOrDefaultAsync(m => m.CodControl == CodControl && m.CodEmpresa == CodEmpresa && m.NumeroDia == NumeroDia && m.NumeroAforo == NumeroAforo);
         }
-
+        public ControlAforo GetOneByIds(int id, int id2, int id3, int id4)
+        {
+            return dbContext.Set<ControlAforo>().Find(id, id2, id3, id4);
+        }
 
         private SolutionDbContext _db
         {

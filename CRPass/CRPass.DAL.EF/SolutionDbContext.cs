@@ -18,7 +18,6 @@ namespace CRPass.DAL.EF
         public virtual DbSet<Empresa> Empresa { get; set; }
         public virtual DbSet<Publicidad> Publicidad { get; set; }
         public virtual DbSet<Tickets> Tickets { get; set; }
-        //public virtual DbSet<Usuarios> Usuarios { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -64,7 +63,7 @@ namespace CRPass.DAL.EF
                 entity.Property(e => e.CodControl).ValueGeneratedOnAdd();
 
                 entity.HasOne(d => d.CodEmpresaNavigation)
-                    .WithMany(p => p.ControlAforo)
+                    .WithMany(p => p.CodControl)
                     .HasForeignKey(d => d.CodEmpresa)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_ControlAforo_Empresa");
@@ -111,28 +110,7 @@ namespace CRPass.DAL.EF
                     .HasMaxLength(10);
             });
 
-            //modelBuilder.Entity<Usuarios>(entity =>
-            //{
-            //    entity.HasKey(e => e.Usuario);
-
-            //    entity.Property(e => e.Usuario).HasMaxLength(10);
-
-            //    entity.Property(e => e.Contrasena)
-            //        .IsRequired()
-            //        .HasMaxLength(100);
-
-            //    entity.Property(e => e.Correo).HasMaxLength(150);
-
-            //    entity.Property(e => e.Nombre)
-            //        .IsRequired()
-            //        .HasMaxLength(100);
-
-            //    entity.HasOne(d => d.CodEmpresaNavigation)
-            //        .WithMany(p => p.Usuarios)
-            //        .HasForeignKey(d => d.CodEmpresa)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Usuarios_Empresa");
-            //});
+            
 
             OnModelCreatingPartial(modelBuilder);
         }

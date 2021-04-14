@@ -1,0 +1,392 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {}
+  },
+  "projects": {
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
+        "projectName": "CRPass.BS",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.BS\\CRPass.BS.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.BS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "projectName": "CRPass.DAL.EF",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
+        "projectName": "CRPass.DAL.Repository",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+        "projectName": "CRPass.DAL",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
+              },
+              "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+                "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "projectName": "CRPass.DO",
+        "projectPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\CRPass.DO.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "A:\\U\\Diseño y Desarrollo\\Novedades Monica\\CRPass\\CRPass\\CRPass.DO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
