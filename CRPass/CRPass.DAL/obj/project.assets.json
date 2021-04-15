@@ -5790,11 +5790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
       "projectName": "CRPass.DAL",
-      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5811,14 +5811,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
+            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL.EF\\CRPass.DAL.EF.csproj"
             },
-            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
+            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL.Repository\\CRPass.DAL.Repository.csproj"
             },
-            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
+            "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DO\\CRPass.DO.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DO\\CRPass.DO.csproj"
             }
           }
         }

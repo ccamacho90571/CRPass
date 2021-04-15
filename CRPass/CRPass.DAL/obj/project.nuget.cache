@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MFyQIWWkRjou86W7p0bSvtU44Y0bzU59WdyrfmlKilZEUJowf4tgQ8ONPqnSkY9qLftnPKuXjt0WXLL9j8TCow==",
+  "dgSpecHash": "B+45g+e5sbjhpxW4pB2vwgmMUWtKA3L4DR5A8tAXOAsufRAwE+Z0ea0u1XBZTzkllZ3oWJjFU/iKQCmTvTbMkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\U\\2021\\I Cuatri\\Progra V\\Proyecto\\API\\CRPass\\CRPass.DAL\\CRPass.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
