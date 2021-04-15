@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace CRPass.DO.Objects
+namespace CRPass.API.DataModels
 {
-<<<<<<< HEAD
-    class ControlAforo
-=======
     public class ControlAforo
->>>>>>> 2c6b03a706f2791a78505b289c401151ab9c72d9
     {
         public int CodControl { get; set; }
         public int CodEmpresa { get; set; }
