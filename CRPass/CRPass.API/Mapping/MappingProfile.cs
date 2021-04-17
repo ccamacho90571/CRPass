@@ -18,6 +18,8 @@ namespace CRPass.API.Mapping
 
             CreateMap<data.Empresa, DataModels.Empresa>().ReverseMap();
 
+            CreateMap<data.ControlAforo, DataModels.ControlAforo>().ReverseMap();
+
             CreateMap<data.Tickets, DataModels.Tickets>().ReverseMap();
 
             CreateMap<data.Boleteria, DataModels.Boleteria>().ReverseMap();

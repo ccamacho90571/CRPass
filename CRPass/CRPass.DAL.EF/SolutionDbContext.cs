@@ -14,7 +14,7 @@ namespace CRPass.DAL.EF
         }
         public virtual DbSet<Boleteria> Boleteria { get; set; }
         public virtual DbSet<BoleteriaReservados> BoleteriaReservados { get; set; }
-        //public virtual DbSet<ControlAforo> ControlAforo { get; set; }
+        public virtual DbSet<ControlAforo> ControlAforo { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }
         public virtual DbSet<Publicidad> Publicidad { get; set; }
         public virtual DbSet<Tickets> Tickets { get; set; }
@@ -57,18 +57,18 @@ namespace CRPass.DAL.EF
                     .HasConstraintName("FK_BoleteriaReservados_Tickets");
             });
 
-            //modelBuilder.Entity<ControlAforo>(entity =>
-            //{
-            //    entity.HasKey(e => new { e.CodControl, e.CodEmpresa, e.NumeroDia });
+            modelBuilder.Entity<ControlAforo>(entity =>
+            {
+                entity.HasKey(e => new { e.CodControl, e.CodEmpresa, e.NumeroDia });
 
-            //    entity.Property(e => e.CodControl).ValueGeneratedOnAdd();
+                entity.Property(e => e.CodControl).ValueGeneratedOnAdd();
 
-            //    entity.HasOne(d => d.CodEmpresaNavigation)
-            //        .WithMany(p => p.ControlAforo)
-            //        .HasForeignKey(d => d.CodEmpresa)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_ControlAforo_Empresa");
-            //});
+                entity.HasOne(d => d.CodEmpresaNavigation)
+                    .WithMany(p => p.ControlAforo)
+                    .HasForeignKey(d => d.CodEmpresa)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ControlAforo_Empresa");
+            });
 
             modelBuilder.Entity<Empresa>(entity =>
             {
@@ -109,6 +109,18 @@ namespace CRPass.DAL.EF
                 entity.Property(e => e.Usuario)
                     .IsRequired()
                     .HasMaxLength(10);
+
+                entity.HasOne(d => d.CodEmpresaNavigation)
+                    .WithMany(p => p.Tickets)
+                    .HasForeignKey(d => d.CodEmpresa)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Tickets_Empresa");
+
+                entity.HasOne(d => d.UsuarioNavigation)
+                    .WithMany(p => p.Tickets)
+                    .HasForeignKey(d => d.Usuario)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Tickets_Usuarios");
             });
 
             modelBuilder.Entity<Usuarios>(entity =>

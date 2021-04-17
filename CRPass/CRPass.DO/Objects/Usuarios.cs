@@ -15,6 +15,8 @@ namespace CRPass.DO.Objects
         public string Correo { get; set; }
 
         public virtual Empresa CodEmpresaNavigation { get; set; }
+        public virtual ICollection<Tickets> Tickets { get; set; }
+        public virtual ICollection<BoleteriaReservados> BoleteriaReservados { get; set; }
 
     }
 }

@@ -21,14 +21,14 @@ namespace CRPass.DAL.Repository
         {
             return await _db.Tickets
                 .Include(m => m.CodEmpresaNavigation)
-                .Include(m => m.UsuarioNavigation)
+                //.Include(m => m.Usuario)
                 .ToListAsync();
         }
         public async Task<Tickets> GetByOneWithAsAsync(int id)
         {
             return await _db.Tickets
              .Include(m => m.CodEmpresaNavigation)
-             .Include(m => m.UsuarioNavigation)
+             //.Include(m => m.Usuario)
              .SingleOrDefaultAsync(m => m.CodTicket == id);
         }
 

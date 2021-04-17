@@ -68,3 +68,8 @@ CRPass/CRPass.DO/obj/
 CRPass/CRPass.DAL/obj/
 CRPass/CRPass.BS/bin/
 CRPass/CRPass.API/CRPass.API.csproj.user
+CRPass/.vs/
+CRPass/CRPass.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+CRPass/CRPass.API/bin/
+CRPass/CRPass.API/obj/
+CRPass/CRPass.DAL.EF/obj/

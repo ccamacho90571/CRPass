@@ -29,7 +29,7 @@ namespace CRPass.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable< datamodels.Publicidad>>> GetPublicidad()
         {
-            var aux = new CRPass.BS.Publicidad(_context).GetAll();
+            var aux = await new CRPass.BS.Publicidad(_context).GetAllWithAsync();
 
             var mapaux = _mapper.Map<IEnumerable<data.Publicidad>, IEnumerable<datamodels.Publicidad>>(aux).ToList();
             return mapaux;

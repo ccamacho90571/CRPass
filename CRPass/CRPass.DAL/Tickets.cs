@@ -5,15 +5,16 @@ using data = CRPass.DO.Objects;
 using CRPass.DAL.EF;
 using CRPass.DO.Interfaces;
 using CRPass.DAL.Repository;
+using System.Threading.Tasks;
 
 namespace CRPass.DAL
 {
     public class Tickets : ICRUD<data.Tickets>
     {
-        private Repository<data.Tickets> _repo = null;
+        private RepositoryTickets _repo = null;
         public Tickets(SolutionDbContext solutionDbContext)
         {
-            _repo = new Repository<data.Tickets>(solutionDbContext);
+            _repo = new RepositoryTickets(solutionDbContext);
         }
 
         public void Delete(data.Tickets t)
@@ -43,5 +44,17 @@ namespace CRPass.DAL
             _repo.Update(t);
             _repo.Commit();
         }
+
+        public async Task<IEnumerable<data.Tickets>> GetAllWithAsync()
+        {
+            return await _repo.GetAllWithAsAsync();
+        }
+
+        public async Task<data.Tickets> GetOneByIdWithAsync(int id)
+        {
+            return await _repo.GetByOneWithAsAsync(id);
+        }
+
+
     }
 }

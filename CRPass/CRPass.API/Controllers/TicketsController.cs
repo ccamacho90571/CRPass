@@ -30,7 +30,7 @@ namespace CRPass.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<datamodels.Tickets>>> GetTickets()
         {
-            var aux = new CRPass.BS.Tickets(_context).GetAll();
+            var aux = await new CRPass.BS.Tickets(_context).GetAllWithAsync();
 
             var mapaux = _mapper.Map<IEnumerable<data.Tickets>, IEnumerable<datamodels.Tickets>>(aux).ToList();
             return mapaux;

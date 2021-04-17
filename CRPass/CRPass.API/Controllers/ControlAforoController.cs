@@ -29,7 +29,7 @@ namespace CRPass.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<datamodels.ControlAforo>>> GetControlAforo()
         {
-            var aux = new CRPass.BS.ControlAforo(_context).GetAll();
+            var aux = await new CRPass.BS.ControlAforo(_context).GetAllWithAsync();
 
             var mapaux = _mapper.Map<IEnumerable<data.ControlAforo>, IEnumerable<datamodels.ControlAforo>>(aux).ToList();
             return mapaux;

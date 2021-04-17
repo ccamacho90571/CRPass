@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using CRPass.DAL.EF;
 using CRPass.DO.Interfaces;
 using data = CRPass.DO.Objects;
@@ -39,6 +40,16 @@ namespace CRPass.BS
         public void Update(data.Tickets t)
         {
             new DAL.Tickets(context).Update(t);
+        }
+
+        public async Task<IEnumerable<data.Tickets>> GetAllWithAsync()
+        {
+            return await new DAL.Tickets(context).GetAllWithAsync();
+        }
+
+        public async Task<data.Tickets> GetOneByIdWithAsync(int id)
+        {
+            return await new DAL.Tickets(context).GetOneByIdWithAsync(id);
         }
     }
 }
