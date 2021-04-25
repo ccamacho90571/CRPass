@@ -20,6 +20,8 @@ namespace CRPass.DAL.EF
         public virtual DbSet<Tickets> Tickets { get; set; }
         public virtual DbSet<Usuarios> Usuarios { get; set; }
 
+    
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +32,7 @@ namespace CRPass.DAL.EF
                 entity.Property(e => e.Descripcion)
                     .IsRequired()
                     .HasMaxLength(200);
+                
 
                 entity.HasOne(d => d.CodEmpresaNavigation)
                     .WithMany(p => p.Boleteria)
@@ -59,7 +62,7 @@ namespace CRPass.DAL.EF
 
             modelBuilder.Entity<ControlAforo>(entity =>
             {
-                entity.HasKey(e => new { e.CodControl, e.CodEmpresa, e.NumeroDia });
+                entity.HasKey(e => new { e.CodControl });
 
                 entity.Property(e => e.CodControl).ValueGeneratedOnAdd();
 
@@ -68,6 +71,10 @@ namespace CRPass.DAL.EF
                     .HasForeignKey(d => d.CodEmpresa)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_ControlAforo_Empresa");
+
+               
+
+
             });
 
             modelBuilder.Entity<Empresa>(entity =>
@@ -84,7 +91,7 @@ namespace CRPass.DAL.EF
             modelBuilder.Entity<Publicidad>(entity =>
             {
                 entity.HasKey(e => e.CodPublicidad);
-                entity.Property(e => e.CodPublicidad).ValueGeneratedNever();
+                entity.Property(e => e.CodPublicidad);
                 entity.Property(e => e.RutaArchivo).IsRequired();
                 entity.HasOne(d => d.CodEmpresaNavigation)
                     .WithMany(p => p.Publicidad)

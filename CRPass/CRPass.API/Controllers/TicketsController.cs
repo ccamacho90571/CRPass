@@ -40,7 +40,7 @@ namespace CRPass.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<datamodels.Tickets>> GetTickets(int id)
         {
-            var tickets = new CRPass.BS.Tickets(_context).GetOneById(id);
+            var tickets = await new CRPass.BS.Tickets(_context).GetOneByIdWithAsync(id);
 
             if (tickets == null)
             {
@@ -49,6 +49,22 @@ namespace CRPass.API.Controllers
             var mapaux = _mapper.Map<data.Tickets, datamodels.Tickets>(tickets);
             return mapaux;
         }
+
+        // GET: api/Tickets/5
+        [HttpGet("Tickets/{nreserva}")]
+        public async Task<ActionResult<datamodels.Tickets>> GetTicketsByNReserva(string nreserva)
+        {
+            var tickets = await new CRPass.BS.Tickets(_context).GetOneByIdWithAsync(nreserva);
+
+            if (tickets == null)
+            {
+                return NotFound();
+            }
+            var mapaux = _mapper.Map<data.Tickets, datamodels.Tickets>(tickets);
+            return mapaux;
+        }
+
+
 
         // PUT: api/Tickets/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for

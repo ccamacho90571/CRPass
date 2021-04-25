@@ -55,6 +55,11 @@ namespace CRPass.DAL
             return await _repo.GetByOneWithAsAsync(id);
         }
 
+        public async Task<data.Tickets> GetOneByIdWithAsync(string nreserva)
+        {
+            return await _repo.GetByOneWithAsAsync(nreserva);
+        }
+
 
     }
 }

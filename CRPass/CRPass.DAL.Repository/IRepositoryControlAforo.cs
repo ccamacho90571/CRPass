@@ -12,6 +12,6 @@ namespace CRPass.DAL.Repository
 
         Task<data.ControlAforo> GetByOneWithAsAsync(int id);
 
-        Task<data.ControlAforo> GetByOneWithAsAsync(int id, int id2, int id3, int id4);
+     
     }
 }

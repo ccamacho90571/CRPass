@@ -24,6 +24,8 @@ namespace CRPass.DAL.Repository
                 //.Include(m => m.Usuario)
                 .ToListAsync();
         }
+
+       
         public async Task<Tickets> GetByOneWithAsAsync(int id)
         {
             return await _db.Tickets
@@ -32,6 +34,13 @@ namespace CRPass.DAL.Repository
              .SingleOrDefaultAsync(m => m.CodTicket == id);
         }
 
+        public async Task<Tickets> GetByOneWithAsAsync(string nreserva)
+        {
+            return await _db.Tickets
+             .Include(m => m.CodEmpresaNavigation)
+             //.Include(m => m.Usuario)
+             .SingleOrDefaultAsync(m => m.Nreserva == nreserva);
+        }
         private SolutionDbContext _db
         {
             get { return dbContext as SolutionDbContext; }

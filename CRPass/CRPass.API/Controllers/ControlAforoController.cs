@@ -37,9 +37,9 @@ namespace CRPass.API.Controllers
 
         // GET: api/BoleteriaReservados/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<datamodels.ControlAforo>> GetControlAforo(int CodControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public async Task<ActionResult<datamodels.ControlAforo>> GetControlAforo(int CodControl)
         {
-            var ControlAforo = new CRPass.BS.ControlAforo(_context).GetOneByIds(CodControl,  CodEmpresa, NumeroDia, NumeroAforo);
+            var ControlAforo = await new CRPass.BS.ControlAforo(_context).GetOneByIdWithAsync(CodControl);
 
             if (ControlAforo == null)
             {
@@ -94,9 +94,9 @@ namespace CRPass.API.Controllers
 
         // DELETE: api/BoleteriaReservados/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<datamodels.ControlAforo>> DeleteControlAforo(int codControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public async Task<ActionResult<datamodels.ControlAforo>> DeleteControlAforo(int codControl)
         {
-            var ControlAforo = new CRPass.BS.ControlAforo(_context).GetOneByIds(codControl, CodEmpresa, NumeroDia, NumeroAforo);
+            var ControlAforo = new CRPass.BS.ControlAforo(_context).GetOneByIds(codControl);
             if (ControlAforo == null)
             {
                 return NotFound();

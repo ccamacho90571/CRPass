@@ -10,6 +10,10 @@ namespace CRPass.DAL.Repository
     {
         Task<IEnumerable<data.Tickets>> GetAllWithAsAsync();
 
+
+
         Task<data.Tickets> GetByOneWithAsAsync(int id);
+
+        Task<data.Tickets> GetByOneWithAsAsync(string nreserva);
     }
 }

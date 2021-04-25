@@ -24,25 +24,20 @@ namespace CRPass.DAL.Repository
                 .ToListAsync();
         }
 
-        public async Task<ControlAforo> GetByOneWithAsAsync(int id)
+    
+
+
+
+    
+        public async Task<ControlAforo> GetByOneWithAsAsync(int CodControl)
         {
             return await _db.ControlAforo
              .Include(m => m.CodEmpresaNavigation)
-             .SingleOrDefaultAsync(m => m.CodEmpresa == id);
+             .SingleOrDefaultAsync(m => m.CodControl == CodControl);
         }
-
-        public async Task<ControlAforo> GetByOneWithAsAsync(int CodControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public ControlAforo GetOneByIds(int id)
         {
-            return await _db.ControlAforo
-             .Include(m => m.CodControl)
-             .Include(m => m.CodEmpresa)
-             .Include(m => m.NumeroDia)
-             .Include(m => m.NumeroAforo)
-             .SingleOrDefaultAsync(m => m.CodControl == CodControl && m.CodEmpresa == CodEmpresa && m.NumeroDia == NumeroDia && m.NumeroAforo == NumeroAforo);
-        }
-        public ControlAforo GetOneByIds(int id, int id2, int id3, int id4)
-        {
-            return dbContext.Set<ControlAforo>().Find(id, id2, id3, id4);
+            return dbContext.Set<ControlAforo>().Find(id);
         }
 
         private SolutionDbContext _db

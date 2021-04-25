@@ -51,5 +51,10 @@ namespace CRPass.BS
         {
             return await new DAL.Tickets(context).GetOneByIdWithAsync(id);
         }
+
+        public async Task<data.Tickets> GetOneByIdWithAsync(string nreserva)
+        {
+            return await new DAL.Tickets(context).GetOneByIdWithAsync(nreserva);
+        }
     }
 }

@@ -16,5 +16,6 @@ namespace CRPass.DO.Objects
         public int NumeroAforo { get; set; }
 
         public virtual Empresa CodEmpresaNavigation { get; set; }
+
     }
 }

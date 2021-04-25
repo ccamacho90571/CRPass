@@ -31,9 +31,9 @@ namespace CRPass.BS
             return new DAL.ControlAforo(context).GetOneById(id);
         }
 
-        public data.ControlAforo GetOneByIds(int codControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public data.ControlAforo GetOneByIds(int codControl)
         {
-            return new DAL.ControlAforo(context).GetOneByIds( codControl,  CodEmpresa, NumeroDia, NumeroAforo);
+            return new DAL.ControlAforo(context).GetOneByIds(codControl);
         }
 
         public void Insert(data.ControlAforo t)
@@ -49,6 +49,10 @@ namespace CRPass.BS
         public async Task<IEnumerable<data.ControlAforo>> GetAllWithAsync()
         {
             return await new DAL.ControlAforo(context).GetAllWithAsync();
+        }
+        public async Task<data.ControlAforo> GetOneByIdWithAsync(int CodControl)
+        {
+            return await new DAL.ControlAforo(context).GetOneByIdWithAsync(CodControl);
         }
 
     }

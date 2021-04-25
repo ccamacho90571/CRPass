@@ -33,9 +33,9 @@ namespace CRPass.DAL
             return _repo.GetOneById(id);
         }
 
-        public data.ControlAforo GetOneByIds(int codControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public data.ControlAforo GetOneByIds(int codControl)
         {
-            return _repo.GetOneByIds(codControl, CodEmpresa, NumeroDia, NumeroAforo);
+            return _repo.GetOneByIds(codControl);
         }
 
         public void Insert(data.ControlAforo t)
@@ -55,9 +55,12 @@ namespace CRPass.DAL
             return await _repo.GetAllWithAsAsync();
         }
 
-        public async Task<data.ControlAforo> GetOneByIdWithAsync(int codControl, int CodEmpresa, int NumeroDia, int NumeroAforo)
+        public async Task<data.ControlAforo> GetOneByIdWithAsync(int codControl)
         {
-            return await _repo.GetByOneWithAsAsync(codControl, CodEmpresa, NumeroDia, NumeroAforo);
+            return await _repo.GetByOneWithAsAsync(codControl);
+            
         }
+
+     
     }
 }
