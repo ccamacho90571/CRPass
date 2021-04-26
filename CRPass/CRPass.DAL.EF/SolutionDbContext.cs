@@ -104,8 +104,6 @@ namespace CRPass.DAL.EF
             {
                 entity.HasKey(e => e.CodTicket);
 
-                entity.Property(e => e.CodTicket).ValueGeneratedNever();
-
                 entity.Property(e => e.Fecha).HasColumnType("datetime");
 
                 entity.Property(e => e.Nreserva)
@@ -115,7 +113,7 @@ namespace CRPass.DAL.EF
 
                 entity.Property(e => e.Usuario)
                     .IsRequired()
-                    .HasMaxLength(10);
+                    .HasMaxLength(20);
 
                 entity.HasOne(d => d.CodEmpresaNavigation)
                     .WithMany(p => p.Tickets)
@@ -129,7 +127,6 @@ namespace CRPass.DAL.EF
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Tickets_Usuarios");
             });
-
             modelBuilder.Entity<Usuarios>(entity =>
             {
                 entity.HasKey(e => e.Usuario);
